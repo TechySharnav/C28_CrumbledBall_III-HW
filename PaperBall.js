@@ -10,7 +10,7 @@ class PaperBall {
         this.body = Bodies.circle(x, y, radius, options)
         this.radius = radius;
 
-        this.image = loadImage("sprite/paper.png")
+        this.image = loadImage("http://assets.stickpng.com/images/5c434c10e39d5d01c21da943.png")
 
         World.add(world, this.body);
     }
