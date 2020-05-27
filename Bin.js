@@ -18,7 +18,7 @@ class Bin {
         this.height3 = 200;
 
 
-        this.image = loadImage("sprites/bin.png")
+        this.image = loadImage("sprite/bin.png")
 
 
         Matter.Body.setStatic(this.body1, true);
